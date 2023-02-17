@@ -277,8 +277,6 @@ if(text_name.value!="" && text.value !="" && (user_email.value!="" || mobile_num
     }
     const ServiceId="service_ebncry7"; //service_ebncry7
     const TemplateId="template_pbeqw4g"; //to corporate.ips@gmail.com
-    //  const ServiceId="service_2kbr54e";
-    //  const TemplateId="template_4k9h7kg";
     emailjs.send(ServiceId,TemplateId,params).then((res)=>{
         text_name.value=""
         text.value="";
